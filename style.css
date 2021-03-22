@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: none;
+  color: rgb(65, 54, 50);
+}
+
+.circle {
+  width: 1100px;
+  height: 1100px;
+  border-bottom-right-radius: 100%;
+  text-align: center;
+  padding-top: 12px;
+  background-color: blanchedalmond;
+  position: absolute;
+  z-index: 1;
+}
+
+.background-img img {
+  top: 250px;
+  left: 160px;
+  width: 805px;
+  position: relative;
+  z-index: 2;
+}
+
+.main-section {
+  z-index: 8;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title {
+  display: flex;
+  font-size: 40px;
+  font-weight: 800;
+  justify-content: center;
+}
+
+.main-detail {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.log-section {
+  position: absolute;
+  left: 65%;
+  top: 30%;
+}
+
+.log-id {
+  width: 250px;
+  font-size: 20px;
+  margin: 15px;
+  background: #e6e6e6;
+  padding: 10px 10px;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+.log-pw {
+  position: absolute;
+  left: 15px;
+  width: 250px;
+  font-size: 20px;
+  background: #e6e6e6;
+  padding: 10px 10px;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+.fas {
+  padding: 0 10px;
+  color: #b9b9b9;
+}
+
+.log-btn {
+  display: flex;
+  justify-content: center;
+  left: 75px;
+  width: 50%;
+  background: #ec9b58;
+  position: relative;
+  top: 70px;
+  padding: 15px;
+  border-radius: 50px;
+  color: white;
+}
+
+.log-btn:hover {
+  background: #eb7e25;
+  transition: 0.3s;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
